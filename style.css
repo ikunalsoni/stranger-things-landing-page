@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    
+}
+
+body{
+    background-image: url(Stranger\ Things\ Cast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.nav_logo{
+width: 120px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: black
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+nav ul li a.active{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+
+}
+
+.main_image{
+    padding-top: 10%;
+    margin-left: 20px;
+
+}
+
+.main_text{
+    word-spacing: 2px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 50%;
+    margin-top: 2%;
+    padding: 20px;
+    color: white;
+}
+
+button{
+    margin-left: 20px;
+    padding: 15px;
+    
+
+}
+
+.watch_button{
+    text-decoration: none;
+    color: black;
+    font-weight:light;
+    font-size: medium;
+}
+
+.watch_button:hover{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    transition: 0.5s ease;
+}
